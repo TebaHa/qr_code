@@ -1,2 +1,6 @@
 .vscode/*
 .DS_Store
+qrcode
+virt
+libqrcodes.pdf
+__pycache__

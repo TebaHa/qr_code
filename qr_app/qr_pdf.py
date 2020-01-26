@@ -20,7 +20,7 @@ class PdfDecorator():
 
 	def __init__(self, pdfname):
 		self.pdf = FPDF(unit='pt')
-		self.pdf.add_font('DejaVu', '', '/Users/zytrams/qr/font/dejavu-sans-mono.ttf', uni=True)
+		self.pdf.add_font('DejaVu', '', './font/dejavu-sans-mono.ttf', uni=True)
 		self.pdf.set_font("DejaVu", size = 5)
 		if pdfname:
 			self.pdfname = pdfname
@@ -37,7 +37,7 @@ class PdfDecorator():
 			while let_len < 30:
 				if let_len == len(string):
 					last_space = let_len
-					break 
+					break
 				if string[let_len] == ' ':
 					last_space = let_len
 				let_len += 1

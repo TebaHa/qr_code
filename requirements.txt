@@ -1,0 +1,7 @@
+Pillow==6.2.1
+flask
+qrcode
+itsdangerous
+setuptools
+Werkzeug
+fpdf==1.7.2

@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 from PIL import Image as I, ImageColor as IC
-from qr_app.qr_pdf import PdfDecorator
+from qr_pdf import PdfDecorator
 
 class QrComposer():
 	A4_W = 2481
